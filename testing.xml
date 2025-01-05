@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AutomationFrameworkUI">
+    <listeners>
+        <listener class-name="reporting.ExtentTestNGListener"/>
+    </listeners>
+    <test name="LoginTests" enabled="true">
+        <classes>
+            <class name="tests.auth.Verify_Successful_Login"/>
+        </classes>
+    </test>
+
+    <test name="AboutTests" enabled="false">
+        <classes>
+            <class name="tests.about.Verify_Test_It_All_Button_Design_Is_As_Expected"/>
+        </classes>
+    </test>
+</suite>

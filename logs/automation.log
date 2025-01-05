@@ -1,0 +1,4 @@
+2025-01-05 22:00:12 [main] INFO  reporting.LogReporter - Entered username: standard_user
+2025-01-05 22:00:12 [main] INFO  reporting.LogReporter - Entered password.
+2025-01-05 22:00:12 [main] INFO  reporting.LogReporter - Clicked on login button.
+2025-01-05 22:00:12 [main] INFO  reporting.LogReporter - Test Passed
