@@ -9,7 +9,7 @@ This README provides a step-by-step guide on how to open, set up, and run the **
 
 1. **Open IntelliJ**
     - Go to **File** > **New** > **Project from Existing Sources** (or **Import Project** if you already cloned the repository from Git).
-    - Select the **MySeleniumProject** folder that contains the **`pom.xml`** file.
+    - Select the **AutomationFrameworkUI** folder that contains the **`pom.xml`** file.
     - IntelliJ should **auto-detect** it as a Maven project.
 
 2. **Check Maven Dependencies**
