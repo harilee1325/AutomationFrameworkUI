@@ -27,9 +27,7 @@ public class AboutPage {
     }
 
     public boolean verifyTestItAllBtDesign() throws IOException {
-        Screenshot currentScreenshot = ScreenshotUtil.captureElement(driver
-                , Utility.findElementByText(driver, testItAllText));
-
+        Screenshot currentScreenshot = ScreenshotUtil.captureFullPage(driver);
 
         File baseline = new File("baselineimages/test_it_all_bt.png");
         if (!baseline.exists()){

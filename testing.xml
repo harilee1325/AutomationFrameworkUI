@@ -3,13 +3,13 @@
     <listeners>
         <listener class-name="reporting.ExtentTestNGListener"/>
     </listeners>
-    <test name="LoginTests" enabled="true">
+    <test name="LoginTests" enabled="false">
         <classes>
             <class name="tests.auth.Verify_Successful_Login"/>
         </classes>
     </test>
 
-    <test name="AboutTests" enabled="false">
+    <test name="AboutTests" enabled="true">
         <classes>
             <class name="tests.about.Verify_Test_It_All_Button_Design_Is_As_Expected"/>
         </classes>
