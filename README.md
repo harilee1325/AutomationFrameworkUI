@@ -1,5 +1,3 @@
-
-```markdown
 # Automation Framework UI
 
 This repository contains a robust UI automation testing framework built using **Java**, **Selenium**, **TestNG**, and other modern tools. It is designed for scalability, reusability, and seamless integration with CI/CD pipelines using Jenkins.
@@ -187,5 +185,5 @@ pom.xml                              # Maven build configuration
 ## License
 
 This project is licensed under the MIT License.
-
 ```
+
