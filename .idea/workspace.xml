@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="205f01c5-d9e1-4750-8b09-3fcd07d1cea0" name="Changes" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testng.xml">
     <configuration name="/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationFrameworkUI" />
