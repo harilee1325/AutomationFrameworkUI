@@ -178,12 +178,7 @@ pom.xml                              # Maven build configuration
 
 ## Contributors
 
-- **Your Name** - Framework Developer
+- **Harikrishnan** - Framework Developer
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
-```
 
