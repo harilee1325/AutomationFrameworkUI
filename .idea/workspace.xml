@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="205f01c5-d9e1-4750-8b09-3fcd07d1cea0" name="Changes" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,6 @@
     &quot;LombokPluginIS_LOMBOK_JPS_FIX_ENABLED&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testing.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testng.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Verify_Test_It_All_Button_Design_Is_As_Expected.testTestItAllButtonDesign.executor&quot;: &quot;Debug&quot;,
