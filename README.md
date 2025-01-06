@@ -1,58 +1,191 @@
-# AutomationFrameworkUI
-# **Getting Started with AutomationFrameworkUI**
 
-This README provides a step-by-step guide on how to open, set up, and run the **AutomationFrameworkUI** in IntelliJ IDE. You’ll also learn how to view TestNG results and ExtentReports, as well as troubleshoot common issues.
+```markdown
+# Automation Framework UI
 
----
-
-## **1. Create & Run This Project in IntelliJ**
-
-1. **Open IntelliJ**
-    - Go to **File** > **New** > **Project from Existing Sources** (or **Import Project** if you already cloned the repository from Git).
-    - Select the **AutomationFrameworkUI** folder that contains the **`pom.xml`** file.
-    - IntelliJ should **auto-detect** it as a Maven project.
-
-2. **Check Maven Dependencies**
-    - In the **Maven** tool window (usually on the right side of IntelliJ), ensure all dependencies (Selenium, TestNG, ExtentReports, etc.) are successfully downloaded.
-    - If necessary, click **Reload All Maven Projects** to force IntelliJ to update the dependencies.
+This repository contains a robust UI automation testing framework built using **Java**, **Selenium**, **TestNG**, and other modern tools. It is designed for scalability, reusability, and seamless integration with CI/CD pipelines using Jenkins.
 
 ---
 
-## **2. Set Up the TestNG Runner**
+## Features
 
-- IntelliJ automatically recognizes **`testng.xml`** files.
-- To run all tests defined in **`testng.xml`**:
-    1. Right-click on **`testng.xml`**.
-    2. Select **`Run 'testng.xml'`**.
+- **Automation Framework**:
+  - Built on **Java 17**, **Selenium 4**, and **TestNG**.
+  - Implements the **Page Object Model (POM)** design pattern.
+  - Supports **Data-Driven Testing** using external files (e.g., Excel, JSON).
+  - Includes utilities for logging, reporting, and element interaction.
+  - Captures screenshots for failures using **AShot**.
+  - Generates detailed HTML reports using **ExtentReports**.
 
-- Alternatively, you can run a specific test class:
-    1. Right-click on **`LoginTest.java`** (or any other test class).
-    2. Select **`Run 'LoginTest'`**.
+- **Logging**:
+  - Integrated with **Log4j 2** for capturing detailed execution logs.
 
----
+- **Cross-Browser Testing**:
+  - Easily configurable for Chrome, Firefox, Edge, and others via WebDriverManager.
 
-## **3. View Test Results**
-
-- In IntelliJ’s **Run** or **Test** panel, you’ll see standard **TestNG output** (pass/fail summaries, logs, etc.).
-- After the test finishes, an **`ExtentReport.html`** file is generated in the **project root**.
-    - Open it in your browser to view detailed test steps, logs, and any attached screenshots.
-
----
-
-## **4. Screenshot Storage**
-
-- When a test **fails**, a screenshot is automatically saved in the **`screenshots/`** folder.
-- You may need to **refresh** your project view in IntelliJ to see newly created files.
+- **Continuous Integration (CI)**:
+  - Fully integrated with **Jenkins** for automated test execution.
+  - Triggers builds via GitHub Webhooks or Poll SCM.
 
 ---
 
-## **5. Common Issues & Troubleshooting**
+## Technologies Used
 
-1. **Java Version**
-    - Make sure you have **Java 11** (or whichever version is specified in your `pom.xml`) installed and properly set in IntelliJ’s Project SDK.
-2. **Driver Errors**
-    - If you encounter driver-related issues, ensure **WebDriverManager** is successfully downloading the correct driver for your browser. Check your network or proxy settings if downloads fail.
-3. **Missing Dependencies**
-    - If IntelliJ fails to compile tests or can’t find certain packages (e.g., `org.testng`), confirm your **Maven dependencies** are correctly listed in `pom.xml` and that the project is **reloaded**.
+- **Java 17**
+- **Maven** (Build Tool)
+- **TestNG** (Test Execution)
+- **Selenium 4** (Browser Automation)
+- **ExtentReports** (Reporting)
+- **Log4j 2** (Logging)
+- **AShot** (Screenshots)
+- **WebDriverManager** (Driver Management)
+- **Jenkins** (CI/CD Pipeline)
 
 ---
+
+## Project Structure
+
+```
+src
+├── main
+│   └── java
+│       ├── base
+│       │   ├── BaseTest.java        # Common setup and teardown logic
+│       │   └── BrowserDriverManager.java
+│       ├── pages                   # Page Object Model classes
+│       │   └── LoginPage.java
+│       ├── reporting
+│       │   └── ExtentManager.java  # ExtentReports integration
+│       └── utils                   # Utility classes (e.g., LogReporter)
+├── test
+│   └── java
+│       └── tests                   # Test classes
+│           ├── auth
+│           │   └── VerifySuccessfulLogin.java
+│           └── dashboard
+│               └── VerifyDashboardLoad.java
+│   └── resources
+│       └── testng.xml              # TestNG suite configuration
+pom.xml                              # Maven build configuration
+```
+
+---
+
+## Prerequisites
+
+1. Install **Java 17** or later.
+2. Install **Maven** (minimum version 3.6.0).
+3. Install **Jenkins** for CI/CD.
+
+---
+
+## Setup Instructions
+
+### Running Tests Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/AutomationFrameworkUI.git
+   cd AutomationFrameworkUI
+   ```
+
+2. Run the tests using Maven:
+   ```bash
+   mvn clean test -Denv=DEV
+   ```
+
+3. HTML Reports:
+    - After test execution, detailed HTML reports will be available in `target/ExtentReport.html`.
+
+---
+
+## Jenkins CI/CD Integration
+
+### Jenkins Configuration
+
+1. **Install Jenkins Plugins**:
+    - **Git Plugin**
+    - **Maven Integration Plugin**
+    - **HTML Publisher Plugin**
+
+2. **Create a Jenkins Job**:
+    - Set **Source Code Management** to Git and provide your repository URL.
+    - Under **Build**, add:
+      ```bash
+      clean test -Denv=DEV
+      ```
+    - Use **HTML Publisher** to archive the test reports:
+        - HTML Directory: `target`
+        - Index Page: `ExtentReport.html`
+
+3. **Set Up Build Triggers**:
+    - Use **Poll SCM** or **GitHub Webhooks** to trigger builds automatically on code changes.
+
+---
+
+## Common Issues and Fixes
+
+### Tests Not Running (`Tests run: 0`)
+- Ensure `testng.xml` is correctly configured in the Maven Surefire Plugin:
+  ```xml
+  <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.1.2</version>
+      <configuration>
+          <suiteXmlFiles>
+              <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+      </configuration>
+  </plugin>
+  ```
+
+- Verify test classes have `@Test` annotations and are in `src/test/java`.
+
+### NullPointerException for System Properties
+- Pass the required system properties:
+  ```bash
+  mvn clean test -Denv=DEV
+  ```
+- Use a default value in the code:
+  ```java
+  String environment = System.getProperty("env", "DEV");
+  ```
+
+### HTML Publisher Plugin Failure
+- Ensure the report is generated in the `target` directory.
+- In Jenkins:
+    - HTML Directory: `target`
+    - Index Page: `ExtentReport.html`
+
+### SLF4J Warnings
+- Add an SLF4J implementation to your `pom.xml`:
+  ```xml
+  <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>2.0.9</version>
+  </dependency>
+  ```
+
+---
+
+## Future Enhancements
+
+- Add **API Testing** with REST Assured.
+- Integrate **Selenium Grid** for distributed testing.
+- Add support for **performance testing** with JMeter.
+- Automate **report uploads** to cloud storage.
+
+---
+
+## Contributors
+
+- **Your Name** - Framework Developer
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+```
