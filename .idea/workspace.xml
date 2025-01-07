@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205f01c5-d9e1-4750-8b09-3fcd07d1cea0" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/UserApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/common/ApiBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/common/Endpoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/common/RequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/common/ResponseValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ApiUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/about/Verify_Test_It_All_Button_Design_Is_As_Expected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/about/Verify_Test_It_All_Button_Design_Is_As_Expected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/dev.properties" afterDir="false" />
-    </list>
+    <list default="true" id="205f01c5-d9e1-4750-8b09-3fcd07d1cea0" name="Changes" comment="First commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
