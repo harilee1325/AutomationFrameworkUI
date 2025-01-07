@@ -5,6 +5,7 @@ import base.BaseTestLogin;
 import com.beust.ah.A;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import pages.AboutPage;
 import pages.HomePage;
 import reporting.ExtentManager;
