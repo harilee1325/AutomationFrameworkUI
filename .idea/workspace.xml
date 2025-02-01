@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205f01c5-d9e1-4750-8b09-3fcd07d1cea0" name="Changes" comment="First commit" />
+    <list default="true" id="205f01c5-d9e1-4750-8b09-3fcd07d1cea0" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/dev.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,31 +52,132 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;LombokPluginIS_LOMBOK_JPS_FIX_ENABLED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testing.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Verify_Test_It_All_Button_Design_Is_As_Expected.testTestItAllButtonDesign.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/java&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/main/java/org/harilee/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml (1).executor": "Run",
+    "TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml.executor": "Run",
+    "TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testing.xml.executor": "Run",
+    "TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testng.xml.executor": "Run",
+    "TestNG.Verify_Test_It_All_Button_Design_Is_As_Expected.testTestItAllButtonDesign.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/java",
+    "onboarding.tips.debug.path": "/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/main/java/org/harilee/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testng.xml">
+  <component name="RunManager" selected="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml">
+    <configuration name="/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFrameworkUI" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFrameworkUI" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Denv=DEV" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFrameworkUI" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Denv=DEV" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFrameworkUI" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Denv=DEV" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFrameworkUI" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Denv=DEV" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationFrameworkUI" />
       <shortenClasspath name="NONE" />
@@ -113,13 +219,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" />
       <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testing.xml" />
       <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testng.xml" />
-        <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/testing.xml" />
+        <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG./Users/harikrishnan/projects/personal/Selenium Automation Framework Java/AutomationFrameworkUI/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
   </component>
